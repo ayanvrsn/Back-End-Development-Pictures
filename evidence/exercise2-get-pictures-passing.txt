@@ -1,0 +1,13 @@
+$ /Users/ayan/Documents/Codex/2026-10-04/d/backend-capstone/.venv/bin/python -m pytest -v tests/test_api.py -k data_contains or get_picture or pictures_json
+============================= test session starts ==============================
+collecting ... collected 11 items / 6 deselected / 5 selected
+
+tests/test_api.py::test_data_contains_10_pictures PASSED
+tests/test_api.py::test_get_picture PASSED
+tests/test_api.py::test_get_pictures_check_content_type_equals_json PASSED
+tests/test_api.py::test_get_picture_by_id PASSED
+tests/test_api.py::test_pictures_json_is_not_empty PASSED
+
+======================= 5 passed, 6 deselected in 0.01s ========================
+
+Exit code: 0
